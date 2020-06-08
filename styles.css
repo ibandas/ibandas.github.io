@@ -4,7 +4,7 @@ main {
 }
 
 nav.top-nav {
-    background-color: #2288aa;
+    background-color: #13767E;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -56,4 +56,44 @@ nav.top-nav .pulldown-menu li {
 
 nav.top-nav li:hover .pulldown-menu {
     display: block;
+}
+
+.center {
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+}
+
+#myDIV1 {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    display: none;
+}
+
+#myDIV2 {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    display: none;
+}
+
+.button {
+    background-color: #13767E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    background-color: #F0F8FF;
 }
