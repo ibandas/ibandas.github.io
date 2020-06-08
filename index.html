@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/ibandas.github.io/styles.css">
+        <link rel="stylesheet" href="styles.css">
         <script src="main.js"></script>
     </head>
 
     <body>
         <nav class="top-nav">
             <ul>
-                <li>Home</li>
-                <li>Edit</li>
-                <li>View</li>
-                <li>Settings</li>
-                <li>Account
-                    <ul class="pulldown-menu">
-                        <li>Login</li>
-                        <li>Logout</li>
-                        <li>Create Account</li>
-                    </ul>
-                </li>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="Resume.pdf">
+                    <li>Resume</li>
+                </a>
+                <a href="about-me.html">
+                    <li>About Me</li>
+                </a>
             </ul>
         </nav>
 
         <main>
-
-            <h1>Irinel Bandas Portfolio</h1>
-            <div class="center">
+            <div class="header">
+                <h1 class="monospace">Irinel Bandas</h1>
+                <p class="monospace">Video Editing Portfolio</p>
+            </div>
+            <div class="videoWrapper">
+                <h1 class="monospace" id="title-background"><span>League of Legends 2017 Summer Playoffs Hype Trailer</span></h1>
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/2aZ9OvSe4QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <button class="button" onclick="showVideo1()">Show More</button>
+            <button id="mybtn1" class="button" onclick="showVideo1()">Show More</button>
             <div id="myDIV1">
                 This is my DIV element.
             </div>
             <div class="center">
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/UYBDtridJwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1 class="monospace" id="title-background"><span>Team Solomid - Against All Odds - Spring 2016 Finals Hype Trailer</span></h1>
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/pi3CqJkawJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <button class="button" onclick="showVideo2()">Show More</button>
+            <button id="mybtn2" class="button" onclick="showVideo2()">Show More</button>
             <div id="myDIV2">
                 This is my DIV element.
             </div>

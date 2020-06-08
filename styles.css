@@ -97,3 +97,30 @@ nav.top-nav li:hover .pulldown-menu {
 body {
     background-color: #F0F8FF;
 }
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.videoWrapper {
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#title-background {
+    color: white;
+}
+h1 span {
+    background-color: black;
+    padding: 10px;
+}
